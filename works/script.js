@@ -1,4 +1,5 @@
 function my_funcs() {
+    alert("rfgadrgerg");
     let one_jw =  document.getElementsByClassName("one_link");
     for(var i=0; i<one_jw.length; i++)one_jw[i].style.display='inline-block';
 }
