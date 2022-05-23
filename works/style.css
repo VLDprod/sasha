@@ -106,5 +106,6 @@
   .pr_1 {
     background-color: brown;
     visibility: hidden;
+    display: none;
   }
 }
