@@ -107,5 +107,6 @@
     background-color: brown;
     visibility: hidden;
     display: none;
+    opacity: 0%;
   }
 }
