@@ -46,35 +46,25 @@
 
     <div class="works">
       <center>
-      <a href="#" onclick="my_funcs()"><b>Практична робота №3</b></a>
+      <a href="#" class="pr_1" onclick="my_funcs()"><b>Практична робота №3</b></a>
+      <h1 class="pr_12" onclick="my_funcs()"><b>Практична робота №3</b></h1>
+      <div class="one_link2" id="one_l">
+        <a href="./prakt_work_3/index.html" class="completed">Перейти на выполненую П/Р</a>
+        <a href="./практична_робота_№3_Мар'єнко_Олександри.zip">Скачать выполненую практическую в формате .zip</a>
+        <a href="">Перейти на Google Drive</a>
+      </div>
+      <hr>
+
       <a href="#" onclick="my_funcs1()"><b>Практична робота №-</b></a>
+      <div class="two_link" id="two_l">
+        <a href="./prakt_work_3/index.html" class="completed">Перейти на выполненую П/Р</a>
+        <a href="./практична_робота_№3_Мар'єнко_Олександри.zip">Скачать выполненую практическую в формате .zip</a>
+        <a href="">Перейти на Google Drive</a>
+        <p>Пока что в разработке</p>
+      </div>
       <a href="#" onclick="my_funcs2()"><b>Практична робота №-=</b></a>
       </center>
     </div>
-    <script>
-         function my_funcs() {
-         let one_jw =  document.getElementsByClassName("one_link");
-         for(var i=0; i<one_jw.length; i++)one_jw[i].style.display='inline-block';
-        }
-        function my_funcs1() {
-        let two_jw = document.getElementsByClassName("two_link");
-        for(var i=0; i<two_jw.length; i++)two_jw[i].style.display='inline-block';
-        }
-        function my_funcs2() {
-            let three_jw = document.getElementsByClassName('three_link');
-            for(var i=0; i<three_jw.length; i++)three_jw[i].style.display='inline-block';
-            }
-        function back_l() {
-
-            let one_jw =  document.getElementsByClassName("one_link");
-            let two_jw = document.getElementsByClassName("two_link");
-            let three_jw = document.getElementsByClassName('three_link');
-        
-            for(var i=0; i<one_jw.length; i++)one_jw[i].style.display='none';
-            for(var i=0; i<two_jw.length; i++)two_jw[i].style.display='none';
-            for(var i=0; i<three_jw.length; i++)three_jw[i].style.display='none';
-    
-        }
-    </script>
+    <script src="./script.js"></script>
 </body>
 </html>
