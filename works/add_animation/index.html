@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../all_a.css">
+    <title>Розміщення анімацій, звукові та відео файлів в HTML</title>
+</head>
+<body>
+    <div class="topnav">
+
+        <!-- Центрированное ссылка -->
+        <div class="topnav-centered">
+          <a href="../../index.html">Главная</a>
+        </div>
+      
+        <!-- Ссылки, выровненные по левому краю (по умолчанию) -->
+        <a href="../../comments/index.html">Коментарии</a>
+        <a href="../../contacts/index.html">Контакты</a>
+      
+        <!-- Ссылки, выровненные по правому краю -->
+        <div class="topnav-right">
+          <a href="#" class="active">Розміщення анімацій в HTML</a>
+          <a href="../../works/index.html">--Работы--</a>
+        </div>
+      
+      </div>
+      <h1>Анімації у HTML файлі</h1>
+      <h2>Відео-ролик з ютубу</h2>
+      <center><iframe width="830" height="467" src="https://www.youtube.com/embed/vZd-RMwHXbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      <h2>Ведмідь у річці</h2>
+      <center><video src="vid_1.mp4" controls="controls"></video></center>
+      <h2>Тварини</h2>
+      <center><video src="vid_2.mp4" controls="controls" autoplay="autoplay" ></video></center>
+      <h2 class="h2_audio">Музика зі звуками природи</h2>
+      <center><audio controls class="audio_1">
+        <source src="audio.mp3" type="audio/ogg">
+        <p>Ваш браузер не поддерживает HTML5 аудио. Вот взамен
+           <a href="audio.mp3">ссылка на аудио</a></p>
+      </audio></center>
+      <div class="text-box">
+      <center><a href="#btn_1" onclick="btn_def()" id="btn_1" class="btn btn-white btn-        animate">Замінити аудіофайл</a></center>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
